@@ -14,8 +14,8 @@ function App() {
       <Routes>
       <Route path="/testing-app-offline-forms/" element={<Home/>}/>
 
-        <Route path="/testing-app-offline-forms/#/form" element={<Form/>}/>
-        <Route path="/testing-app-offline-forms/#/form2" element={<Form2/>}/>
+        <Route path="/testing-app-offline-forms/form" element={<Form/>}/>
+        <Route path="/testing-app-offline-forms/form2" element={<Form2/>}/>
 
       </Routes>
     </Router>
