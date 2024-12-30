@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/testing-app-offline-forms/static/css/main.2f44e5b0.css",
-    "main.js": "/testing-app-offline-forms/static/js/main.43385cb6.js",
+    "main.js": "/testing-app-offline-forms/static/js/main.a4b1f7fb.js",
     "static/js/488.b0222131.chunk.js": "/testing-app-offline-forms/static/js/488.b0222131.chunk.js",
     "service-worker.js": "/testing-app-offline-forms/service-worker.js",
     "static/media/logo.svg": "/testing-app-offline-forms/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/testing-app-offline-forms/index.html",
     "main.2f44e5b0.css.map": "/testing-app-offline-forms/static/css/main.2f44e5b0.css.map",
-    "main.43385cb6.js.map": "/testing-app-offline-forms/static/js/main.43385cb6.js.map",
+    "main.a4b1f7fb.js.map": "/testing-app-offline-forms/static/js/main.a4b1f7fb.js.map",
     "488.b0222131.chunk.js.map": "/testing-app-offline-forms/static/js/488.b0222131.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f44e5b0.css",
-    "static/js/main.43385cb6.js"
+    "static/js/main.a4b1f7fb.js"
   ]
 }
