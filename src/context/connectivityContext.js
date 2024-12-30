@@ -220,7 +220,8 @@ const ConnectivityProvider = ({ children }) => {
         console.log("-------- Application start... checking indexeddb for the first time -----------");
 
         const data = await fetchAllStoresWithValues("my-db");
-        alert("Checking if indexedDb has some older data", JSON.stringify( data, null, 2));
+        alert("Data in indexed DB");
+        alert(JSON.stringify( data, null, 2));
         
 
         // Loop through each store
@@ -230,7 +231,8 @@ const ConnectivityProvider = ({ children }) => {
           let is_synced_false_data = storeData.filter(
             (item) => item.isSynced === false
           );
-          alert(`Data ready to go on server for ${storeName}:`, JSON.stringify(is_synced_false_data, null, 2));
+          alert(`Data ready to go on server for ${storeName}:`);
+          alert(JSON.stringify(is_synced_false_data, null, 2))
 
           if (formDetail && Object.keys(formDetail).includes(storeName)) {
             // try {
@@ -261,13 +263,15 @@ const ConnectivityProvider = ({ children }) => {
     setIsOnline(true);
     try {
       const data = await fetchAllStoresWithValues("my-db");
-      alert("Internet Recoverd : These data are in indexed DB", JSON.stringify( data, null, 2));
+      alert("Internet Recoverd : These data are in indexed DB");
+      alert(JSON.stringify(data, null, 2));
 
       for (const [storeName, storeData] of Object.entries(data)) {
         let is_synced_false_data = storeData.filter(
           (item) => item.isSynced === false
         );
-        alert(`Internet Recoverd : This data is ready to go to server for ${storeName}:`, JSON.stringify(is_synced_false_data, null, 2));
+        alert(`Internet Recoverd : This data is ready to go to server for ${storeName}:`);
+        alert(JSON.stringify(is_synced_false_data, null, 2));
         // console.log(formDetail);
 
         if (formDetail && Object.keys(formDetail).includes(storeName)) {
