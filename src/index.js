@@ -22,9 +22,15 @@ import { ConnectivityProvider } from "./context/connectivityContext";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
  
-  <ConnectivityProvider>
+
+  <React.StrictMode>
+    <ConnectivityProvider>
     <App />
     </ConnectivityProvider>
+    
+  </React.StrictMode>
+   
+
 
 );
 
